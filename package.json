@@ -1,0 +1,12 @@
+{
+  "name": "image-to-blueprint",
+  "version": "1.0.0",
+  "description": "An application to convert images to blueprints",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^23.0.0"
+  }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image to Blueprint Converter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <label for="fileInput">Upload an image:</label>
+  <input type="file" id="fileInput" />
+
+  <canvas id="canvas"></canvas>
+
+  <label for="outputType">Select output type:</label>
+  <select id="outputType">
+    <option value="2D" selected>2D</option>
+    <option value="3D">3D</option>
+  </select>
+
+  <button onclick="convertImage()">Convert</button>
+  <button onclick="saveCanvasImage()">Save</button>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
